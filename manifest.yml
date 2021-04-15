@@ -1,0 +1,10 @@
+---
+applications:
+- name: socketapp
+  current_name: socketapp
+  memory: 768M
+  instances: 1
+  stack: cflinuxfs3
+  route: https://socketapp.cfapps.io
+  command: node app.js
+  buildpack: nodejs_buildpack
